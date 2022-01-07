@@ -1,0 +1,59 @@
+body{
+    background: #c0f8ff;;
+}
+
+.tp{
+    text-align:center;
+}
+
+th.titulo{
+    text-align:left;
+    padding:0;
+    font-size:15pt;
+}
+
+td{
+    height:20px;
+    text-align:center;
+}
+
+#tbdata{
+    padding:3px 15px;
+}
+
+table{
+    margin:auto;
+}
+
+.ttbl{
+    background:#6868f3; 
+    color:white;
+}
+
+.cont{
+    background: white;
+}
+
+.tot{
+    text-align:center;
+    background:#39ff39;
+}
+
+.ntot{
+    background:yellow;
+}
+
+.tb01{
+    margin-bottom:10px;
+}
+
+.tb02{
+    border:2px groove;
+    background:#424242;
+    border-radius: 5px
+}
+
+hr{
+    margin:0px 100px;
+    margin-bottom: 10px;
+}

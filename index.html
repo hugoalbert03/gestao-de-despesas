@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="css/mascara01.css">
+        <title>Gestor de Despesas</title>
+    </head>
+    <body>
+        <header><!--Cabeçalho do conteúdo da página-->
+            <h1 class="tp">Gestor de Despesas</h1>
+        </header>
+        <hr>
+        <article><!--Corpo do contúdo da página-->
+            <section>
+                <form>
+                    <table class="tb01"><!--Componentes de controle da Tabela-->
+                        <tr>
+                            <td><input type="text" placeholder="Produto" class="prod"></td>
+                            <td><input type="number" max="10000" min="0" placeholder="R$" class="val" size="7"></td>
+                            <td><button type="button" onclick="read()">Atribuir</button></td>
+                            <td><button type="reset" onclick="del()">Reiniciar</button></td>
+                        </tr>
+                        </table>
+                        <table class="tb02"><!--Tabela de Dados-->
+                        <tr class="ttbl">
+                            <th width="185" id="tbdata" class="titulo">Produto</th>
+                            <th width="81" id="tbdata" class="titulo">Valor</th>
+                        </tr>
+                        <!--<tr class="cont" id="line">
+                            <td class="vProd"></td><td class="vVal"></td>
+                        </tr>-->
+                    </table>
+                </form>
+                <table></table>
+            </section>
+        </article>
+        <footer>
+            <script src="scripts/script-01.js"></script>
+        </footer>
+    </body>
+</html>
