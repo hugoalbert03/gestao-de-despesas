@@ -22,6 +22,8 @@ function read(){
        proxLine.appendChild(proxContent2)
        proxContent2.innerHTML = `R$ ${Number(val.value).toFixed(2).replace('.',',')}`
     }
+    prod.value = ""
+    val.value = ""
     
 }
  
