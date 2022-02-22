@@ -1,7 +1,9 @@
 let prod = document.querySelector("input.prod");
 let val = document.querySelector("input.val")
-
-function read(){
+var tot = document.querySelector("td.tVal")
+let initVal = 0
+function read(){   
+    initVal += Number(val.value) 
     if(String(prod.value) == 0 || String(val.value) == 0){
         window.alert("Preencha o produto e o seu valor completamente!");
     }else{
@@ -18,10 +20,10 @@ function read(){
        proxContent2.innerHTML = `R$ ${Number(val.value).toFixed(2).replace('.',',')}`
     }
     prod.value = ""
-    val.value = ""  
-    
+    val.value = ""
+    tot.innerHTML = `R$ ${initVal.toFixed(2).replace('.',',')}`
 }
- 
+
 function del(){
    
 }
