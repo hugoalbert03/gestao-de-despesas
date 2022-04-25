@@ -96,3 +96,25 @@ hr{
     margin:0px 100px;
     margin-bottom: 10px;
 }
+
+.conf{
+    background:greenyellow;
+}
+
+.conf:hover{
+    background:green;
+    color:white;
+}
+
+.dl{
+    background:darkorange;
+}
+
+.dl:hover{
+    background:red;
+}
+
+.conf,.dl{
+    margin:0px 2px;
+    padding:5px 25px;
+}

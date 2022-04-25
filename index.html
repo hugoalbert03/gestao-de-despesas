@@ -23,20 +23,15 @@
                 <form>
                     <table class="tb01"><!--Componentes de controle da Tabela-->
                         <tr>
-                            <td>Produto&nbsp;<input type="text" placeholder="ex:'Compras'" class="prod"></td>
-                            <td>Valor&nbsp;<input type="number" max="10000" min="0" placeholder="R$" class="val" size="7"></td>
+                            <td><label for="pd">Produto</label>&nbsp;<input type="text" placeholder="ex:'Compras'" class="prod" id="pd"></td>
+                            <td><label for="vl">Valor</label>&nbsp;<input type="number" max="10000" min="0" placeholder="R$" class="val" size="7" id="vl"></td>
                             
-                        </tr>
-                        <tr>
-                            <td></td>
-                            
-                        </tr>
-                        
+                        </tr>                       
                     </table>
                     <table>
                         <td>
-                            <button type="button" onclick="read()">Atribuir</button>
-                            <button type="reset" onclick="del()">Limpar</button>
+                            <button type="button" onclick="read()" class="conf">Atribuir</button>
+                            <button type="reset" onclick="del()" class="dl">Limpar</button>
                         </td>
                     </table>
                     <table class="tb02"><!--Tabela de Dados-->
