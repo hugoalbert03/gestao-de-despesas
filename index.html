@@ -10,6 +10,12 @@
     <body>
         <header><!--Cabeçalho do conteúdo da página-->
             <h1 class="tp">Gestor de Despesas</h1>
+            <table>
+                <tr>
+                    <td><label for="vMonet">Digite o valor que você possui</label></td>
+                    <td><input type="number" min="1" max="900000" placeholder="R$" id="vMonet"></td>
+                </tr>
+            </table>
         </header>
         <hr>
         <article><!--Corpo do contúdo da página-->
@@ -17,13 +23,23 @@
                 <form>
                     <table class="tb01"><!--Componentes de controle da Tabela-->
                         <tr>
-                            <td><input type="text" placeholder="Produto" class="prod"></td>
-                            <td><input type="number" max="10000" min="0" placeholder="R$" class="val" size="7"></td>
-                            <td><button type="button" onclick="read()">Atribuir</button></td>
-                            <td><button type="reset" onclick="del()">Limpar</button></td>
+                            <td>Produto&nbsp;<input type="text" placeholder="ex:'Compras'" class="prod"></td>
+                            <td>Valor&nbsp;<input type="number" max="10000" min="0" placeholder="R$" class="val" size="7"></td>
+                            
                         </tr>
-                        </table>
-                        <table class="tb02"><!--Tabela de Dados-->
+                        <tr>
+                            <td></td>
+                            
+                        </tr>
+                        
+                    </table>
+                    <table>
+                        <td>
+                            <button type="button" onclick="read()">Atribuir</button>
+                            <button type="reset" onclick="del()">Limpar</button>
+                        </td>
+                    </table>
+                    <table class="tb02"><!--Tabela de Dados-->
                         <tr class="ttbl">
                             <th width="185" id="tbdata" class="titulo">Produto</th>
                             <th width="81" id="tbdata" class="titulo">Valor</th>
@@ -33,6 +49,10 @@
                         <tr>
                             <th class="toltH">Total das Dispesas:</th>
                             <td class="tVal">***</td>
+                        </tr>
+                        <tr>
+                            <th>Total :</th>
+                            <td>***</td>
                         </tr>
                     </table>
                 </form>
