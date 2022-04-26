@@ -112,6 +112,7 @@ hr{
 
 .dl:hover{
     background:red;
+    color:white;
 }
 
 .conf,.dl{
