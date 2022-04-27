@@ -118,4 +118,31 @@ hr{
 .conf,.dl{
     margin:0px 2px;
     padding:5px 25px;
+    border-radius:5px;
+}
+
+#vp{
+    font-size:15pt;
+    padding:0px 10px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#txtV{
+    font-size:15pt;
+    color:yellow;
+    text-shadow: 1px 1px 2px black;
+}
+
+.prod,.val,#vMonet{
+    background:none;
+    border:none;
+    border-bottom: 2px solid gray;
+}
+
+#vMonet:hover{
+    border-bottom:2px solid yellow;
+}
+.prod:hover,.val:hover{
+    border-bottom:2px solid white;
 }

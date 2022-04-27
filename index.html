@@ -12,19 +12,19 @@
             <h1 class="tp">Gestor de Despesas</h1>
             <table>
                 <tr>
-                    <td><label for="vMonet">Digite o valor que você possui</label></td>
-                    <td><input type="number" min="1" max="900000" placeholder="R$" id="vMonet"></td>
+                    <td><label for="vMonet" id="txtV">Digite o valor que você possui</label></td>
+                    <td><input type="number" min="1" max="900000" placeholder="R$" id="vMonet" size="10"></td>
                 </tr>
             </table>
         </header>
-        <hr>
+        <!--<hr>-->
         <article><!--Corpo do contúdo da página-->
             <section>
                 <form>
                     <table class="tb01"><!--Componentes de controle da Tabela-->
                         <tr>
-                            <td><label for="pd">Produto</label>&nbsp;<input type="text" placeholder="ex:'Compras'" class="prod" id="pd"></td>
-                            <td><label for="vl">Valor</label>&nbsp;<input type="number" max="10000" min="0" placeholder="R$" class="val" size="7" id="vl"></td>
+                            <td id="vp"><label for="pd">Produto</label>&nbsp;<input type="text" placeholder="ex:'Compras'" class="prod" id="pd"></td>
+                            <td id="vp"><label for="vl">Valor</label>&nbsp;<input type="number" max="10000" min="0" placeholder="R$" class="val" size="7" id="vl"></td>
                             
                         </tr>                       
                     </table>
