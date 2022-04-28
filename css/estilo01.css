@@ -69,10 +69,22 @@ table{
     color:white;
 }
 
-.cont{
+.toltH,.toltD{
+    background:yellow;
+    text-align:left
+}
+
+.cont,.tVal,#vTot{
     background: white;
 }
 
+.tVal{
+    color:red;
+}
+
+#vTot{
+    color:green;
+}
 .tot{
     text-align:center;
     background:#39ff39;
@@ -87,6 +99,10 @@ table{
 }
 
 .tb02{
+    margin: 15px auto;
+}
+
+.tb02,.tb03{
     border:2px groove;
     background:#424242;
     border-radius: 5px
@@ -145,4 +161,8 @@ hr{
 }
 .prod:hover,.val:hover{
     border-bottom:2px solid white;
+}
+
+.toltH,.tVal{
+
 }
