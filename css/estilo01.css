@@ -70,8 +70,9 @@ table{
 }
 
 .toltH,.toltD{
-    background:yellow;
-    text-align:left
+    background:rgb(0, 0, 0);
+    text-align:left;
+    color:white;
 }
 
 .cont,.tVal,#vTot{
@@ -123,11 +124,11 @@ hr{
 }
 
 .dl{
-    background:darkorange;
+    background:yellow;
 }
 
 .dl:hover{
-    background:red;
+    background:rgb(202, 111, 0);
     color:white;
 }
 
