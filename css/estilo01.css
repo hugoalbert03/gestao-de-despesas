@@ -33,6 +33,7 @@
 body{
     background: -webkit-linear-gradient(50deg,#c0f8ff,#008cff);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .tp{
@@ -106,7 +107,8 @@ table{
 .tb02,.tb03{
     border:2px groove;
     background:#424242;
-    border-radius: 5px
+    border-radius: 5px;
+    width:50%;
 }
 
 hr{
